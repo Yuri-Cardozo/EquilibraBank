@@ -1,0 +1,145 @@
+:root{
+    --color-blue: rgb(82, 147, 211);
+    --color-light: #ffffff;
+    --color-dark: #000000;
+}
+body {
+    font-family: 'Catamaran', sans-serif;
+background-color: #91BBF2;
+
+
+
+}
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 90%;
+    height: 80px;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}.header h1 {
+    font-size: 30px
+}
+.logo {
+    padding: 1px 3px;
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    border-radius: 5px;
+}
+.header ul {
+    list-style: none;
+    display: flex
+}
+.header li {
+    margin: 0 10px;
+}
+.header a {
+    color: var(--color-dark);
+    font-size: 15px;
+    font-weight: 700;
+}
+.header a:hover {
+    color: var(--color-blue)
+}
+.hero {
+    width: 80%;
+    height: 50vh;
+    margin: 10px auto;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+
+    border-radius: 50%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;family=Poppins&amp;display=swap');
+:root {
+    --color-light: #F3F4F5;
+    --color-pink: #dc143c;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+h1, h2 {
+    margin: 0 .5rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-blue);
+}
+.box-form {
+    margin: .5rem
+}
+.box-item {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0;
+}
+.form-label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+.form-control {
+    width: 100%;
+    border: 0;
+    background-color: var(--color-light);
+    height: 3.5rem;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+.form-btn {
+    width: 100%;
+    margin: 0.8rem 0;
+    border: 0;
+    background-color: var(--color-blue);
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.2rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
