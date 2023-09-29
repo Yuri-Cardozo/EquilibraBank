@@ -1,2 +1,2 @@
- ⚡ Fun fact: Esse é o projeto em Da fintech EquilibraBank em sua Versão beta 🧑‍💻
+ ⚡ Fun fact: Esse é o projeto Da fintech EquilibraBank em sua Versão beta 🧑‍💻
 
